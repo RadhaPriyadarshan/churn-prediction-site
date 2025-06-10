@@ -16,7 +16,7 @@ export default function App() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      const res = await axios.post('https://radhapriyadarshan-telcom-churn-prediction-api.hf.space/predict', formData);
+      const res = await axios.post('https://radhapriyadarshan-telecom-customer-churn-prediction-api.hf.space/predict', formData);
       setResults(res.data);
     } catch (err) {
       console.error(err);
