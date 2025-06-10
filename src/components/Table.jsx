@@ -33,7 +33,7 @@ export default function Table({ data }) {
       </div>
 
       {/* Table */}
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto ">
         <table className="w-full text-white  bg-gray-900/60 backdrop-blur-sm  shadow-md">
           <thead className="bg-pink-200/5 backdrop-blur-sm shadow-md">
             <tr>
@@ -46,7 +46,7 @@ export default function Table({ data }) {
           </thead>
           <tbody>
             {filteredData().map((row, i) => (
-              <tr key={i} className={resolved[row.customerID] ? 'bg-green-100' : ''}>
+              <tr key={i} className={resolved[row.customerID] ? 'bg-green-100/25 backdrop-blur-sm' : ''}>
                 <td className="p-2">{row.customerID}</td>
                 <td className="p-2">{row.Churn}</td>
                 <td className="p-2">{row.Probability}</td>
@@ -60,7 +60,7 @@ export default function Table({ data }) {
                       {resolved[row.customerID] ? 'Resolved' : 'Contact & Resolve'}
                     </button>
                   ) : (
-                    <span className="text-gray-400 italic">N/A</span>
+                    <span className="text-gray-400 italic">❌</span>
                   )}
                 </td>
               </tr>
