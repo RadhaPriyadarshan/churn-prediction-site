@@ -27,7 +27,7 @@ export default function Dashboard({ data }) {
       {
         label: 'Customers',
         data: [churned, notChurned],
-        backgroundColor: ['#dc2626', '#16a34a'],
+        backgroundColor: ['#EF4444', '#10B981'],
       },
     ],
   };
