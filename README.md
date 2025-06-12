@@ -7,7 +7,7 @@ This full-stack project predicts whether telecom customers are likely to churn b
 ## 🚀 Live Demo
 
 - 🔮 [Frontend Website](https://telecom-customer-churn-prediction.netlify.app/)
-- 🔌 [Backend Flask API](https://radhapriyadarshan-telecom-customer-churn-prediction-api.hf.space)
+- 🔌 [Backend Flask API](https://huggingface.co/spaces/Radhapriyadarshan/Telecom-Customer-Churn-Prediction-API)
 - 📬 [Postman API Docs](https://documenter.getpostman.com/view/22447139/2sB2x5JYwP)
 
 ---
