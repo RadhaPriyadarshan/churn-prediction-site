@@ -67,3 +67,10 @@ body,
   height: 100%;
   overflow: hidden;
 }
+/* Hide scrollbar in desktop but keep scrollable */
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}

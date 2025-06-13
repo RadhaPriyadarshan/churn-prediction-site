@@ -16,7 +16,7 @@ export default function Table({ data }) {
 
   return (
     <div className="rounded-lg shadow-md">
-      {/* Filter Tabs */}
+      
       <div className="mb-4 flex justify-center gap-2 flex-wrap">
         {['All', 'Churn', 'Not Churn'].map(type => (
           <button
@@ -31,7 +31,7 @@ export default function Table({ data }) {
         ))}
       </div>
 
-      {/* Scrollable table on mobile */}
+      
       <div className="w-full overflow-x-auto rounded-lg">
         <table className="min-w-[700px] w-full text-white bg-gray-900/60 backdrop-blur-sm shadow-md text-xs sm:text-sm md:text-base">
           <thead className="sticky top-0 bg-gray-800 z-10 text-white">
