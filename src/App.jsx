@@ -27,7 +27,7 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden text-white">
+    <div className="relative h-screen overflow-hidden text-white">
       <VantaBackground />
 
       <nav className="fixed top-0 left-0 w-full bg-gray-900/55 backdrop-blur-md p-4 text-white text-xl font-semibold shadow-md rounded-b-lg z-20">
