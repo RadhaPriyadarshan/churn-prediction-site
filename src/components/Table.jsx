@@ -32,7 +32,7 @@ export default function Table({ data }) {
       </div>
 
       
-      <div className="w-full overflow-x-auto rounded-lg">
+      <div className="max-h-[400px]  overflow-x-auto overflow-y-auto rounded-lg">
         <table className="min-w-[700px] w-full text-white bg-gray-900/60 backdrop-blur-sm shadow-md text-xs sm:text-sm md:text-base">
           <thead className="sticky top-0 bg-gray-800 z-10 text-white">
             <tr>

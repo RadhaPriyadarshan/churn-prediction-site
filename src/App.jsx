@@ -35,7 +35,7 @@ export default function App() {
       </nav>
 
    
-      <div className="pt-20 pb-16 overflow-y-auto h-full">
+      <div className="pt-20 pb-16 overflow-y-auto md:overflow-y-visible h-full">
         <div className="p-6 max-w-screen-xl mx-auto">
           <div className="flex justify-between items-center mb-6">
             <input
